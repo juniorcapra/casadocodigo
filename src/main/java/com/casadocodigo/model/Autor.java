@@ -12,6 +12,11 @@ import javax.validation.constraints.NotNull;
 @Entity
 public class Autor {
 	
+    @Deprecated
+	public Autor() {
+		
+	}
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;

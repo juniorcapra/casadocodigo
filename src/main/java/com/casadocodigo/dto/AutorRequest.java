@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 
-public class AutorResponse {
+public class AutorRequest {
 
 	private String nome;	
 	private String email;
